@@ -37,8 +37,8 @@ const EventsAdvancedScreen = () => {
               </View>
 
               <View style={styles.walletCarder}>
-                <Text style={styles.eventName}>Event name</Text>
-                <Text style={styles.eventType}>Event type</Text>
+                <Text style={styles.eventName}>{"EDC Las Vegas"}</Text>
+                <Text style={styles.eventType}>{"Festival"}</Text>
                 <Text style={styles.attending}>Attending</Text>
               </View>
             </View>
@@ -172,7 +172,8 @@ const styles = StyleSheet.create({
     color: "#000",
     fontSize: 14,
     marginLeft: 10,
-    width: 115
+    width: 115,
+    fontFamily: "Montserrat"
   },
   eventType: {
     color: "#000",
@@ -228,9 +229,6 @@ const styles = StyleSheet.create({
   checkboxContainer: {
     flexDirection: "row",
     marginBottom: 20
-  },
-  checkbox: {
-    alignSelf: "center"
   },
   myEvents: {
     flexDirection: "row",
